@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 app.secret_key = "supersecretkey"  # Required for session management
 
-
+#rand
 def init_db():
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
